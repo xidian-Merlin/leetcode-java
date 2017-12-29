@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -7,6 +10,16 @@ import java.util.Map;
  * Created by a123 on 2017/11/8.
  */
 public class SubstringWithConcatenation {
+    public static void main(String[] args){
+        try(
+                InputStreamReader reader = new InputStreamReader(System.in);
+
+                BufferedReader br = new BufferedReader(reader)){
+
+        }catch ( IOException ioe){
+
+        }
+    }
 }
 
 class Solution30 {
